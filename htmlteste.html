@@ -18,33 +18,37 @@
             <form> <br>
                 Data de Construção:
                 <input type="date" name="Data">
-            </form> <br>
-            <form> <br>
+                <br>
+                <form> <br>
                 <input type="radio" name="tipo" value="Imóvel Novo" checked>Imóvel Novo
                 <input type="radio" name="tipo" value="Imóvel Usado">Imóvel Usado
-            </form> <br>
-            <form>
-                Endereço: <br> <input type="text" name="Endereço" <br>
-            </form> <br>
-            Descrição: <br> <textarea name="descrição" rows="4" cols="50">
-            </textarea> <br>
-        </fieldset> <br>
-         <fieldset> 
+                <br>
+                <form>
+                    Endereço: <br> <input type="text" name="Endereço" <br>
+                </form> <br>
+                <label for="text">Descrição</label>
+                <br> <textarea name="descrição" id="text" rows="10" cols="20">
+                </textarea> <br>
+            </fieldset> <br>
+        <fieldset> 
              <legend>Outras Características</legend>
-            <form>
-                <input type="checkbox" name="outros[]" value="Piscina">Piscina <br>
-                <input type="checkbox" name="outros[]" value="Churrasqueira">Churrasqueira <br>
-                <input type="checkbox" name="outros[]" value="Aquecedor Solar">Aquecedor Solar <br>
-                <input type="checkbox" name="outros[]" value="Closet">Closet <br>
-                <input type="checkbox" name="outros[]" value="Banheira de Hidromassagem">Banheira de Hidromassagem <br>
+             <form>
+                 <input type="checkbox" name="outros[]" value="Piscina">Piscina <br>
+                 <input type="checkbox" name="outros[]" value="Churrasqueira">Churrasqueira <br>
+                 <input type="checkbox" name="outros[]" value="Aquecedor Solar">Aquecedor Solar <br>
+                 <input type="checkbox" name="outros[]" value="Closet">Closet <br>
+                 <input type="checkbox" name="outros[]" value="Banheira de Hidromassagem">Banheira de Hidromassagem <br>
                 <input type="checkbox" name="outros[]" value="Acabamento de Porcelanato">Acabamento em Porcelanato <br>
                 <input type="checkbox" name="outros[]" value="Lavabo">Lavabo <br>
                 <input type="checkbox" name="outros[]" value="Armários">Armários <br>
-            </form> <br>
-        </fieldset> <br>
-    </form action="login.php">
-    <button type="submit">Cadastrar</button> 
-    <button type="reset">Limpar</button>
+                <br>
+            </fieldset> <br>
+            <button type="submit">Cadastrar</button> 
+            <button type="reset">Limpar</button>
+        </form> 
+    </form> 
+    </form> 
+    </form>
 </form>
 </body>
 </html>
